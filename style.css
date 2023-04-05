@@ -105,7 +105,7 @@ p {
 
 .card-header {
     background-color: rgb(230, 225, 216);
-    padding: 0;
+    padding: 10px;
     font-size: 30px;
     color: #633636;
 }
@@ -412,7 +412,7 @@ p {
     
     .card-header {
         background-color: rgb(230, 225, 216);
-        padding: 0;
+        padding: 10px;
         font-size: 30px;
         color: #633636;
     }
