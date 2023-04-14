@@ -74,7 +74,6 @@ header {
         font-size: 35px;
         margin-left: 13px;
         margin-top: 100px;
-        width: 300px;
     }
 
     .carousel-inner {
@@ -104,7 +103,6 @@ header {
         font-size: 40px;
         margin-left: 15px;
         margin-top: 100px;
-        width: 360px;
     }
 
     .carousel-inner {
@@ -209,7 +207,6 @@ header {
         margin-left: 20px;
         font-family: 'Courier New', Courier, monospace;
         margin-top: 130px;
-        width: 600px;
        }
        
        .about {
