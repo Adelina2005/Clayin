@@ -211,6 +211,10 @@ header {
     margin-left: 35px;
    }
 
+   .modal-title.fs-5 {
+    padding-right: 80px;
+   }
+
     .carousel-inner {
         margin-top: 50px;
     }
