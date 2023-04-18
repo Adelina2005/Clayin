@@ -38,6 +38,33 @@
     <div>
       <h1><b>Мастер-классы по гончарному делу в Москве</b></h1>
     </div>
+    <!-- Кнопка-триггер модального окна -->
+<button type="button" class="btn a" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Записаться
+</button>
+
+<!-- Модальное окно -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Записаться</h1>
+      </div>
+      <div class="modal-body">
+        <label for="name">Ваше имя:</label>
+        <input id="name" type="text" placeholder=" имя">
+        <br>
+        <br>
+        <label for="name">Ваш номер:</label>
+        <input type="password" pattern="[0-9]" title="Минимум 12 символов" placeholder=" номер">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-b" data-bs-dismiss="modal">Закрыть</button>
+        <button type="button" class="btn btn-c">Записаться</button>
+      </div>
+    </div>
+  </div>
+</div>
 </header>
 <div class="about">
   <div class="container" id="About">

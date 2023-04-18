@@ -40,13 +40,70 @@ header {
    h1{
     position: absolute; 
     color: #ffffff;
-    font-size: 60px;
-    margin-left: 30px;
+    font-size: 80px;
+    margin-left: 550px;
     font-family: 'Courier New', Courier, monospace;
-    margin-top: 170px;
-    width: 1300px;
+    margin-top: 150px;
+    width: 1000px;
+   }
+
+   .btn.a {
+    color: #ffffff;
+    font-size: 40px;
+    margin-left: 550px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 480px;
+    border: solid 2px;
+    width: 400px;
    }
    
+   .btn:hover {
+    background-color: rgb(207, 207, 203);
+   }
+
+   .modal-dialog {
+    max-width: 600px;
+    --bs-modal-header-padding: 2rem 1rem;
+    --bs-modal-footer-gap: 1rem;
+   }
+
+   .modal-content {
+    background-color: rgb(207, 207, 203);
+   }
+
+   .modal-header {
+    border-bottom: none;
+   }
+
+   .modal-title.fs-5 {
+    color: #645e5e;
+    margin: 0px;
+    font-size: 3rem!important;
+   }
+
+   .modal-body {
+    font-size: 25px;
+    padding: 30px;
+   }
+
+   .btn.btn-b {
+    font-size: 20px;
+    background-color: #fe8a8a;
+   }
+
+   .btn.btn-c {
+    font-size: 20px;
+    background-color: #82e87c;
+   }
+
+   .btn.btn-b:hover {
+    background-color: #fe8a8a;
+   }
+
+   .btn.btn-c:hover {
+    background-color: #82e87c;
+   }
+
    .about {
     background-color: rgb(206, 180, 149);
    }
@@ -82,7 +139,41 @@ header {
         margin-left: 13px;
         margin-top: 100px;
         width: 300px;
+        text-align: center;
     }
+
+   .btn.a {
+    text-align: center;
+    margin-left: 26px;
+    font-size: 25px;
+    margin-top: 260px;
+    width: 200px;
+   }
+
+   .modal-dialog {
+    max-width: 300px;
+    --bs-modal-header-padding: 1rem 1rem;
+    --bs-modal-footer-gap: 1rem;
+   }
+
+   .modal-title.fs-5 {
+    font-size: 2rem!important;
+    padding-right: 40px;
+    padding-top: 10px;
+   }
+
+   .modal-body {
+    font-size: 20px;
+    padding: 20px;
+   }
+
+   .btn.btn-b {
+    font-size: 15px;
+   }
+
+   .btn.btn-c {
+    font-size: 15px;
+   }
 
     .carousel-inner {
         margin-top: 50px;
@@ -114,6 +205,11 @@ header {
         margin-top: 100px;
         width: 350px;
     }
+
+   .modal-dialog {
+    max-width: 300px;
+    margin-left: 35px;
+   }
 
     .carousel-inner {
         margin-top: 50px;
@@ -258,13 +354,70 @@ header {
        h1{
         position: absolute; 
         color: #ffffff;
-        font-size: 70px;
-        margin-left: 30px;
+        font-size: 80px;
+        margin-left: 550px;
         font-family: 'Courier New', Courier, monospace;
-        margin-top: 170px;
-        width: 1300px;
+        margin-top: 150px;
+        width: 1000px;
        }
        
+       .btn.a {
+        color: #ffffff;
+        font-size: 40px;
+        margin-left: 550px;
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: 480px;
+        border: solid 2px;
+        width: 400px;
+       }
+       
+       .btn:hover {
+        background-color: rgb(207, 207, 203);
+       }
+    
+       .modal-dialog {
+        max-width: 600px;
+        --bs-modal-header-padding: 2rem 1rem;
+        --bs-modal-footer-gap: 1rem;
+       }
+    
+       .modal-content {
+        background-color: rgb(207, 207, 203);
+       }
+    
+       .modal-header {
+        border-bottom: none;
+       }
+    
+       .modal-title.fs-5 {
+        color: #645e5e;
+        margin: 0px;
+        font-size: 3rem!important;
+       }
+    
+       .modal-body {
+        font-size: 25px;
+        padding: 30px;
+       }
+    
+       .btn.btn-b {
+        font-size: 20px;
+        background-color: #fe8a8a;
+       }
+    
+       .btn.btn-c {
+        font-size: 20px;
+        background-color: #82e87c;
+       }
+    
+       .btn.btn-b:hover {
+        background-color: #fe8a8a;
+       }
+    
+       .btn.btn-c:hover {
+        background-color: #82e87c;
+       }
+
        .about {
            /*background-color: rgb(59, 42, 42);*/
            background-color: rgb(206, 180, 149);
