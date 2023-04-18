@@ -360,6 +360,7 @@ header {
         position: absolute; 
         color: #ffffff;
         font-size: 80px;
+        margin-left: 550px;
         font-family: 'Courier New', Courier, monospace;
         margin-top: 150px;
         width: 1000px;
@@ -368,6 +369,7 @@ header {
        .btn.a {
         color: #ffffff;
         font-size: 40px;
+        margin-left: 550px;
         font-family: 'Courier New', Courier, monospace;
         margin-top: 480px;
         border: solid 2px;
