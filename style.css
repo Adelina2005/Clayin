@@ -42,7 +42,7 @@ header {
     position: absolute; 
     color: #ffffff;
     font-size: 70px;
-    margin-left: 230px;
+    margin-left: 225px;
     font-family: 'Courier New', Courier, monospace;
     margin-top: 100px;
     width: 1000px;
@@ -51,7 +51,7 @@ header {
    .btn.a {
     color: #ffffff;
     font-size: 40px;
-    margin-left: 575px;
+    margin-left: 570px;
     font-family: 'Courier New', Courier, monospace;
     margin-top: 370px;
     border: solid 2px;
