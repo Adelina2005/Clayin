@@ -152,7 +152,68 @@ header {
    }
 
    .modal-dialog {
-    max-width: 300px;
+    --bs-modal-header-padding: 2rem 1rem;
+    --bs-modal-footer-gap: 1rem;
+   }
+
+   .modal-title.fs-5 {
+    text-align: center;
+    font-size: 2rem!important;
+    padding-top: 10px;
+   }
+
+   .modal-body {
+    font-size: 20px;
+    padding: 20px;
+   }
+
+   .btn.btn-b {
+    font-size: 15px;
+   }
+
+   .btn.btn-c {
+    font-size: 15px;
+   }
+
+    .carousel-inner {
+        margin-top: 50px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .about_us {
+        font-size: 35px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    
+    p { 
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 20px;  
+    }
+}
+
+@media (max-width: 375px){
+    .nav-link {
+        margin-left: 0px;
+    }
+
+    h1{
+        font-size: 35px;
+        margin-left: 13px;
+        margin-top: 100px;
+        width: 300px;
+        text-align: center;
+    }
+
+   .btn.a {
+    font-size: 25px;
+    margin-top: 260px;
+    width: 200px;
+   }
+
+   .modal-dialog {
     --bs-modal-header-padding: 1rem 1rem;
     --bs-modal-footer-gap: 1rem;
    }
@@ -196,7 +257,8 @@ header {
 }
 
 
-//*@media (max-width: 375px){
+
+/*@media (max-width: 375px){
     .nav-link {
         margin-left: 0px;
     }
