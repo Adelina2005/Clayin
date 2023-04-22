@@ -131,68 +131,516 @@ header {
     margin-left: 40px;
     }
 
-@media (max-width: 576px){
-    .nav-link {
-        margin-left: 0px;
+    @media (max-width: 1300px){
+        header {
+            background-image: url("ceramics-studio-intentional-.png");
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            background-color: rgba(181, 171, 161, 0.5);
+            background-blend-mode: multiply;
+           }
+           
+           .navbar.navbar-expand-lg.bg-body-tertiary {
+               --bs-bg-opacity: none;
+           }
+           
+           .navbar-brand {
+               color: white;
+               font-size: 25px;
+           }
+           
+           .navbar-brand:hover{
+               color: rgb(255, 241, 224);
+           }
+           
+           .nav-link {
+               color: white;
+               font-size: 18px;
+               margin-left: 40px;
+           }
+           
+           .nav-link:hover {
+               color: rgb(255, 241, 224);
+           }
+           
+           h1{
+            text-align: center;
+            position: absolute; 
+            color: #ffffff;
+            font-size: 60px;
+            margin-left: 140px;
+            font-family: 'Courier New', Courier, monospace;
+            margin-top: 100px;
+            width: 800px;
+           }
+        
+           .btn.a {
+            color: #ffffff;
+            font-size: 30px;
+            margin-left: 385px;
+            font-family: 'Courier New', Courier, monospace;
+            margin-top: 330px;
+            border: solid 2px;
+            width: 300px;
+           }
+           
+           .btn:hover {
+            background-color: rgb(207, 207, 203);
+           }
+        
+           .modal-dialog {
+            max-width: 600px;
+            --bs-modal-header-padding: 2rem 1rem;
+            --bs-modal-footer-gap: 1rem;
+           }
+        
+           .modal-content {
+            background-color: rgb(207, 207, 203);
+           }
+        
+           .modal-header {
+            border-bottom: none;
+           }
+        
+           .modal-title.fs-5 {
+            color: #645e5e;
+            margin: 0px;
+            font-size: 3rem!important;
+            padding-right: 450px;
+           }
+        
+           .modal-body {
+            font-size: 25px;
+            padding: 30px;
+           }
+        
+           .btn.btn-b {
+            font-size: 20px;
+            background-color: #fe8a8a;
+           }
+        
+           .btn.btn-c {
+            font-size: 20px;
+            background-color: #82e87c;
+           }
+        
+           .btn.btn-b:hover {
+            background-color: #fe8a8a;
+           }
+        
+           .btn.btn-c:hover {
+            background-color: #82e87c;
+           }
+        
+           .about {
+            background-color: rgb(206, 180, 149);
+           }
+           
+           .carousel-inner {
+            margin-top: 200px;
+            border-radius: 200px;
+            width: 350px;
+            height: 350px;
+            }
+        
+           .about_us {
+            color: #ffffff;
+            font-size: 45px;
+            margin-top: 130px;
+            margin-left: 80px;
+            }
+        
+           p { 
+            color: #ffffff;
+            font-size: 32px;
+            margin-top: 20px;
+            margin-left: 80px;
+            }
     }
 
-    h1{
-        font-size: 35px;
-        margin-left: 13px;
-        margin-top: 100px;
-        width: 300px;
-        text-align: center;
-    }
-
-   .btn.a {
-    margin-left: 26px;
-    font-size: 25px;
-    margin-top: 260px;
-    width: 200px;
-   }
-
-   .modal-dialog {
-    --bs-modal-header-padding: 2rem 1rem;
-    --bs-modal-footer-gap: 1rem;
-   }
-
-   .modal-title.fs-5 {
-    text-align: center;
-    font-size: 2rem!important;
-    padding-top: 10px;
-   }
-
-   .modal-body {
-    font-size: 20px;
-    padding: 20px;
-   }
-
-   .btn.btn-b {
-    font-size: 15px;
-   }
-
-   .btn.btn-c {
-    font-size: 15px;
-   }
-
-    .carousel-inner {
-        margin-top: 50px;
-        width: 300px;
-        height: 300px;
-    }
-
-    .about_us {
-        font-size: 35px;
-        margin-left: 20px;
-        margin-top: 20px;
-    }
+    @media (max-width: 1024px){
+        .nav-link {
+            margin-left: 0px;
+        }
     
-    p { 
+        h1{
+            font-size: 50px;
+            margin-left: 190px;
+            margin-top: 120px;
+            width: 500px;
+            text-align: center;
+        }
+    
+       .btn.a {
+        font-size: 30px;
+        margin-top: 310px;
+        margin-left: 340px;
+        width: 200px;
+       }
+    
+       .modal-dialog {
+        --bs-modal-header-padding: 1rem 1rem;
+        --bs-modal-footer-gap: 1rem;
+       }
+    
+       .modal-title.fs-5 {
+        font-size: 2rem!important;
+        padding-right: 40px;
+        padding-top: 10px;
+       }
+    
+       .modal-body {
         font-size: 20px;
-        margin-top: 10px;
-        margin-left: 20px;  
+        padding: 20px;
+       }
+    
+       .btn.btn-b {
+        font-size: 15px;
+       }
+    
+       .btn.btn-c {
+        font-size: 15px;
+       }
+    
+        .carousel-inner {
+            margin-top: 100px;
+            width: 250px;
+            height: 250px;
+        }
+    
+        .about_us {
+            font-size: 35px;
+            margin-left: 50px;
+            margin-top: 90px;
+        }
+        
+        p { 
+            font-size: 23px;
+            margin-top: 10px;
+            margin-left: 50px; 
+            margin-bottom: 200px;
+        }
     }
-}
+
+    @media (max-width: 850px){
+        .nav-link {
+            margin-left: 0px;
+        }
+    
+        h1{
+            font-size: 50px;
+            margin-left: 130px;
+            margin-top: 120px;
+            width: 500px;
+            text-align: center;
+        }
+    
+       .btn.a {
+        font-size: 30px;
+        margin-top: 310px;
+        margin-left: 275px;
+        width: 200px;
+       }
+    
+       .modal-dialog {
+        --bs-modal-header-padding: 1rem 1rem;
+        --bs-modal-footer-gap: 1rem;
+       }
+    
+       .modal-title.fs-5 {
+        font-size: 2rem!important;
+        padding-right: 40px;
+        padding-top: 10px;
+       }
+    
+       .modal-body {
+        font-size: 20px;
+        padding: 20px;
+       }
+    
+       .btn.btn-b {
+        font-size: 15px;
+       }
+    
+       .btn.btn-c {
+        font-size: 15px;
+       }
+    
+        .carousel-inner {
+            margin-top: 130px;
+            width: 250px;
+            height: 250px;
+        }
+    
+        .about_us {
+            font-size: 35px;
+            margin-left: 50px;
+            margin-top: 90px;
+        }
+        
+        p { 
+            font-size: 23px;
+            margin-top: 10px;
+            margin-left: 50px; 
+            margin-bottom: 200px;
+        }
+    }
+
+
+    @media (max-width: 768px){
+        .nav-link {
+            margin-left: 0px;
+        }
+    
+        h1{
+            font-size: 50px;
+            margin-left: 80px;
+            margin-top: 120px;
+            width: 500px;
+            text-align:left;
+        }
+    
+       .btn.a {
+        font-size: 30px;
+        margin-top: 310px;
+        margin-left: 80px;
+        width: 200px;
+       }
+    
+       .modal-dialog {
+        --bs-modal-header-padding: 1rem 1rem;
+        --bs-modal-footer-gap: 1rem;
+       }
+    
+       .modal-title.fs-5 {
+        font-size: 2rem!important;
+        padding-right: 40px;
+        padding-top: 10px;
+       }
+    
+       .modal-body {
+        font-size: 20px;
+        padding: 20px;
+       }
+    
+       .btn.btn-b {
+        font-size: 15px;
+       }
+    
+       .btn.btn-c {
+        font-size: 15px;
+       }
+    
+        .carousel-inner {
+            margin-top: 110px;
+            width: 250px;
+            height: 250px;
+        }
+    
+        .about_us {
+            font-size: 35px;
+            margin-left: 20px;
+            margin-top: 90px;
+        }
+        
+        p { 
+            font-size: 23px;
+            margin-top: 20px;
+            margin-left: 20px; 
+        }
+    }
+
+
+    @media (max-width: 650px){
+        .nav-link {
+            margin-left: 0px;
+        }
+    
+        h1{
+            font-size: 45px;
+            margin-left: 70px;
+            margin-top: 120px;
+            width: 500px;
+            text-align:left;
+        }
+    
+       .btn.a {
+        font-size: 30px;
+        margin-top: 300px;
+        margin-left: 70px;
+        width: 200px;
+       }
+    
+       .modal-dialog {
+        --bs-modal-header-padding: 1rem 1rem;
+        --bs-modal-footer-gap: 1rem;
+       }
+    
+       .modal-title.fs-5 {
+        font-size: 2rem!important;
+        padding-right: 40px;
+        padding-top: 10px;
+       }
+    
+       .modal-body {
+        font-size: 20px;
+        padding: 20px;
+       }
+    
+       .btn.btn-b {
+        font-size: 15px;
+       }
+    
+       .btn.btn-c {
+        font-size: 15px;
+       }
+    
+        .carousel-inner {
+            margin-top: 50px;
+            width: 250px;
+            height: 250px;
+        }
+    
+        .about_us {
+            font-size: 35px;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+        
+        p { 
+            font-size: 22px;
+            margin-top: 10px;
+            margin-left: 20px;  
+        }
+    }
+
+    @media (max-width: 576px){
+        .nav-link {
+            margin-left: 0px;
+        }
+    
+        h1{
+            font-size: 40px;
+            margin-left: 50px;
+            margin-top: 120px;
+            width: 340px;
+            text-align:left;
+        }
+    
+       .btn.a {
+        font-size: 25px;
+        margin-top: 270px;
+        margin-left: 50px;
+        width: 170px;
+       }
+    
+       .modal-dialog {
+        --bs-modal-header-padding: 1rem 1rem;
+        --bs-modal-footer-gap: 1rem;
+       }
+    
+       .modal-title.fs-5 {
+        font-size: 2rem!important;
+        padding-right: 40px;
+        padding-top: 10px;
+       }
+    
+       .modal-body {
+        font-size: 20px;
+        padding: 20px;
+       }
+    
+       .btn.btn-b {
+        font-size: 15px;
+       }
+    
+       .btn.btn-c {
+        font-size: 15px;
+       }
+    
+        .carousel-inner {
+            margin-top: 50px;
+            width: 250px;
+            height: 250px;
+        }
+    
+        .about_us {
+            font-size: 35px;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+        
+        p { 
+            font-size: 22px;
+            margin-top: 10px;
+            margin-left: 20px;  
+        }
+    }
+
+    @media (max-width: 400px){
+        .nav-link {
+            margin-left: 0px;
+        }
+    
+        h1{
+            font-size: 35px;
+            margin-left: 50px;
+            margin-top: 120px;
+            width: 300px;
+            text-align: center;
+        }
+    
+       .btn.a {
+        margin-left: 100px;
+        font-size: 25px;
+        margin-top: 270px;
+        width: 180px;
+       }
+    
+       .modal-dialog {
+        --bs-modal-header-padding: 2rem 1rem;
+        --bs-modal-footer-gap: 1rem;
+       }
+    
+       .modal-title.fs-5 {
+        text-align: center;
+        font-size: 2rem!important;
+        padding-top: 10px;
+       }
+    
+       .modal-body {
+        font-size: 20px;
+        padding: 20px;
+       }
+    
+       .btn.btn-b {
+        font-size: 15px;
+       }
+    
+       .btn.btn-c {
+        font-size: 15px;
+       }
+    
+        .carousel-inner {
+            margin-top: 50px;
+            width: 300px;
+            height: 300px;
+        }
+    
+        .about_us {
+            font-size: 35px;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+        
+        p { 
+            font-size: 20px;
+            margin-top: 10px;
+            margin-left: 20px;  
+        }
+    }
 
 @media (max-width: 375px){
     .nav-link {
@@ -209,8 +657,9 @@ header {
 
    .btn.a {
     font-size: 25px;
-    margin-top: 260px;
-    width: 200px;
+    margin-top: 240px;
+    width: 180px;
+    margin-left: 30px;
    }
 
    .modal-dialog {
@@ -255,102 +704,7 @@ header {
         margin-left: 20px;  
     }
 }
-
-
-
-/*@media (max-width: 375px){
-    .nav-link {
-        margin-left: 0px;
-    }
-
-    h1{
-        font-size: 40px;
-        margin-left: 15px;
-        margin-top: 100px;
-        width: 350px;
-    }
-
-   .modal-dialog {
-    max-width: 300px;
-    margin-left: 35px;
-   }
-
-   .modal-title.fs-5 {
-    padding-right: 70px;
-   }
-
-    .carousel-inner {
-        margin-top: 50px;
-    }
-
-    .about_us {
-        font-size: 35px;
-        margin-left: 20px;
-        margin-top: 20px;
-    }
-    
-    p { 
-        font-size: 20px;
-        margin-left: 20px;
-        margin-top: 10px;
-    }
-}
 /*
-@media (min-width: 576px){
-    .nav-link {
-        margin-left: 0px;
-    }
-
-    h1{
-        font-size: 45px;
-        margin-left: 15px;
-        margin-top: 130px;
-        width: 550px;
-    }
-
-    .carousel-inner {
-        margin-top: 50px;
-        width: 300px;
-        height: 300px;
-        margin-left: 90px;
-    }
-
-    .about_us {
-        font-size: 30px;
-        margin-left: 20px;
-        margin-top: 20px;
-    }
-    
-    p { 
-        font-size: 22px;
-        margin-left: none;
-        margin-top: 10px;
-    }
-}
-
-
-@media (min-width: 768px){
-    .carousel-inner {
-        margin-top: 100px;
-        width: 250px;
-        height: 250px;
-        margin-left: 0px;
-        margin-right: 200px;
-    }
-
-    .about_us {
-        font-size: 25px;
-        margin-left: 40px;
-        margin-top: 100px;
-    }
-    
-    p { 
-        font-size: 20px;
-        margin-left: 40px;
-        margin-top: 10px;
-    }
-}
-
 @media (min-width: 992px){
    .nav-link {
         margin-left: 0px;
