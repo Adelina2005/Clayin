@@ -130,6 +130,61 @@ header {
     margin-top: 20px;
     margin-left: 40px;
     }
+   
+    .class {
+        background-color: rgb(206, 180, 149); 
+    }
+
+    .master_class {
+        font-size: 70px;
+        color: #ffffff;
+        margin-top: 200px;
+        margin-left: 400px;
+    }
+
+    .adult {
+        font-size: 45px;
+        color: #ffffff;
+        margin-top: 40px;
+        margin-left: 530px;  
+    }
+
+    .class1, .class2 {
+        border-radius: 50px;
+        margin-top: 10px;  
+        margin-left: 100px;
+        width: 450px;
+        height: 350px;
+    }
+
+    .aw {
+        color: #ffffff;
+        text-align: center;
+        font-size: 30px;
+        width: 400px;
+        margin-left: 120px;
+        margin-top: 20px;
+    }
+
+    .as {
+        text-align: center;
+        font-size: 25px;
+        width: 400px;
+        margin-left: 120px;
+        margin-top: 20px;
+    }
+
+    .w {
+        text-align: center;
+        font-size: 17px;
+        width: 350px;
+        margin-left: 145px;
+        margin-top: 10px; 
+    }
+
+    
+
+
 
     @media (max-width: 1300px){
         header {
