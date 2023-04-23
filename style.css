@@ -62,6 +62,11 @@ header {
     background-color: rgb(207, 207, 203);
    }
 
+   .modal-open{
+    padding-right: 0px;
+    overflow: hidden;
+   }
+
    .modal-dialog {
     max-width: 600px;
     --bs-modal-header-padding: 2rem 1rem;
@@ -133,6 +138,7 @@ header {
    
     .class {
         background-color: rgb(206, 180, 149); 
+        padding: 0px;
     }
 
     .master_class {
@@ -142,11 +148,11 @@ header {
         margin-left: 400px;
     }
 
-    .adult {
+    .adult, .children, .Individually.and.pairs {
         font-size: 45px;
         color: #ffffff;
         margin-top: 40px;
-        margin-left: 530px;  
+        margin-left: 550px;  
     }
 
     .class1, .class2 {
@@ -182,9 +188,14 @@ header {
         margin-top: 10px; 
     }
 
-    
+    .children {
+        margin-top: 20px;
+        margin-left: 590px;
+    }
 
-
+    .Individually.and.pairs {
+        margin-left: 400px;
+    }
 
     @media (max-width: 1300px){
         header {
@@ -757,298 +768,65 @@ header {
         font-size: 20px;
         margin-top: 10px;
         margin-left: 20px;  
-    }
-}
-/*
-@media (min-width: 992px){
-   .nav-link {
-        margin-left: 0px;
+        margin-bottom: 0px;
     }
 
-    h1{
-        font-size: 60px;
-        margin-left: 15px;
-        margin-top: 170px;
-        width: 900px;
-    }
-
-    .carousel-inner {
-        margin-top: 100px;
-        width: 350px;
-        height: 350px;
-        margin-left: 0px;
-        margin-right: 200px;
-    }
-
-    .about_us {
-        font-size: 35px;
-        margin-left: 70px;
-        margin-top: 110px;
-    }
-    
-    p { 
-        font-size: 27px;
-        margin-left: 70px;
-        margin-top: 10px;
-    }
-}
-
-
-@media(max-width: 1200px){
-    header {
-        background-image: url("ceramics-studio-intentional-.png");
-        height: 100vh;
-        background-size: cover;
-        background-position: center;
-        width: 100%;
-        background-color: rgba(181, 171, 161, 0.5);
-        background-blend-mode: multiply;
-       }
-       
-       .navbar.navbar-expand-lg.bg-body-tertiary {
-           --bs-bg-opacity: none;
-       }
-       
-       .navbar-brand {
-           color: white;
-           font-size: 25px;
-       }
-       
-       .navbar-brand:hover{
-           color: rgb(255, 241, 224);
-       }
-       
-       .nav-link {
-           color: white;
-           font-size: 18px;
-           margin-left: 40px;
-       }
-       
-       .nav-link:hover {
-           color: rgb(255, 241, 224);
-       }
-       
-       h1{
-        text-align: center;
-        position: absolute; 
-        color: #ffffff;
-        font-size: 65px;
-        margin-left: 160px;
-        font-family: 'Courier New', Courier, monospace;
-        margin-top: 100px;
-        width: 900px;
-       }
-       
-       .btn.a {
-        color: #ffffff;
+    .master_class {
         font-size: 40px;
-        margin-left: 450px;
-        font-family: 'Courier New', Courier, monospace;
-        margin-top: 350px;
-        border: solid 2px;
+        color: #ffffff;
+        margin-top: 100px;
+        margin-left: 10px;
+    }
+
+    .adult, .children, .Individually.and.pairs {
+        font-size: 30px;
+        color: #ffffff;
+        margin-top: 30px;
+        margin-left: 75px;  
+    }
+
+    .class1, .class2 {
+        border-radius: 50px;
+        margin-top: 30px;  
+        margin-left: 0px;
         width: 300px;
-       }
-       
-       .btn:hover {
-        background-color: rgb(207, 207, 203);
-       }
-    
-       .modal-dialog {
-        max-width: 600px;
-        --bs-modal-header-padding: 2rem 1rem;
-        --bs-modal-footer-gap: 1rem;
-       }
-    
-       .modal-content {
-        background-color: rgb(207, 207, 203);
-       }
-    
-       .modal-header {
-        border-bottom: none;
-       }
-    
-       .modal-title.fs-5 {
-        color: #645e5e;
-        margin: 0px;
-        font-size: 3rem!important;
-       }
-    
-       .modal-body {
-        font-size: 25px;
-        padding: 30px;
-       }
-    
-       .btn.btn-b {
-        font-size: 20px;
-        background-color: #fe8a8a;
-       }
-    
-       .btn.btn-c {
-        font-size: 20px;
-        background-color: #82e87c;
-       }
-    
-       .btn.btn-b:hover {
-        background-color: #fe8a8a;
-       }
-    
-       .btn.btn-c:hover {
-        background-color: #82e87c;
-       }
+        height: 200px;
+    }
 
-       .about {
-           background-color: rgb(206, 180, 149);
-        }
-       
-       .carousel-inner {
-           margin-top: 150px;
-           border-radius: 200px;
-           width: 400px;
-           height: 400px;
-       }
-       
-       .about_us {
-           color: #ffffff;
-           font-size: 45px;
-           margin-top: 160px;
-           margin-left: 40px;
-       }
-       
-       p { 
-           color: #ffffff;
-           font-size: 32px;
-           margin-top: 20px;
-           margin-left: 40px;
-       }
-} 
-
-/*@media(max-width: 1400px){
-    header {
-        background-image: url("ceramics-studio-intentional-.png");
-        height: 100vh;
-        background-size: cover;
-        background-position: center;
-        width: 100%;
-        background-color: rgba(181, 171, 161, 0.5);
-        background-blend-mode: multiply;
-       }
-       
-       .navbar.navbar-expand-lg.bg-body-tertiary {
-           --bs-bg-opacity: none;
-       }
-       
-       .navbar-brand {
-           color: white;
-           font-size: 25px;
-       }
-       
-       .navbar-brand:hover{
-           color: rgb(255, 241, 224);
-       }
-       
-       .nav-link {
-           color: white;
-           font-size: 18px;
-           margin-left: 40px;
-       }
-       
-       .nav-link:hover {
-           color: rgb(255, 241, 224);
-       }
-       
-       h1{
+    .aw {
+        color: #ffffff;
         text-align: center;
-        position: absolute; 
-        color: #ffffff;
-        font-size: 80px;
-        margin-left: 300px;
-        font-family: 'Courier New', Courier, monospace;
-        margin-top: 200px;
-        width: 1200px;
-       }
-       
-       .btn.a {
-        color: #ffffff;
-        font-size: 40px;
-        margin-left: 650px;
-        font-family: 'Courier New', Courier, monospace;
-        margin-top: 450px;
-        border: solid 2px;
-        width: 400px;
-       }
-       
-       .btn:hover {
-        background-color: rgb(207, 207, 203);
-       }
-    
-       .modal-dialog {
-        max-width: 600px;
-        --bs-modal-header-padding: 2rem 1rem;
-        --bs-modal-footer-gap: 1rem;
-       }
-    
-       .modal-content {
-        background-color: rgb(207, 207, 203);
-       }
-    
-       .modal-header {
-        border-bottom: none;
-       }
-    
-       .modal-title.fs-5 {
-        color: #645e5e;
-        margin: 0px;
-        font-size: 3rem!important;
-       }
-    
-       .modal-body {
-        font-size: 25px;
-        padding: 30px;
-       }
-    
-       .btn.btn-b {
-        font-size: 20px;
-        background-color: #fe8a8a;
-       }
-    
-       .btn.btn-c {
-        font-size: 20px;
-        background-color: #82e87c;
-       }
-    
-       .btn.btn-b:hover {
-        background-color: #fe8a8a;
-       }
-    
-       .btn.btn-c:hover {
-        background-color: #82e87c;
-       }
+        font-size: 23px;
+        width: 300px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
 
-       .about {
-           background-color: rgb(206, 180, 149);
-        }
-       
-       .carousel-inner {
-           margin-top: 150px;
-           border-radius: 200px;
-           width: 400px;
-           height: 400px;
-       }
-       
-       .about_us {
-           color: #ffffff;
-           font-size: 45px;
-           margin-top: 160px;
-           margin-left: 40px;
-       }
-       
-       p { 
-           color: #ffffff;
-           font-size: 32px;
-           margin-top: 20px;
-           margin-left: 40px;
-       }
-} 
+    .as {
+        text-align: center;
+        font-size: 18px;
+        width: 300px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
 
+    .w {
+        text-align: center;
+        font-size: 17px;
+        width: 300px;
+        margin-left: 0px;
+        margin-top: 10px; 
+    }
 
+    .children {
+        margin-top: 30px;
+        margin-left: 97px;
+    }
 
+    .Individually.and.pairs {
+        text-align: center;
+        margin-left: 42px;
+        width: 200px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}
