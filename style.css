@@ -1044,6 +1044,23 @@ a:hover {
             width: 200px;
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         }
+
+        
+    .item {
+        width: 320px;
+        height: 320px;
+        margin-left: 0px;
+    }
+
+    .next {
+        left: 280px;
+        width: 0px;
+    }
+
+    .slider, .next {
+        right: 0px;
+        width: fit-content;
+    }
     }
 
 @media (max-width: 375px){
@@ -1140,6 +1157,21 @@ a:hover {
         margin-left: 42px;
         width: 200px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .item {
+        width: 320px;
+        height: 320px;
+        margin-left: 0px;
+    }
+
+    .next {
+        left: 280px;
+        width: 0px;
+    }
+
+    .slider, .next {
+        right: none;
     }
 }
 
