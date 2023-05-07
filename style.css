@@ -226,6 +226,7 @@ header {
     height: 500px;
     margin-top: 50px;
     margin-left: 260px;
+    margin-bottom: 100px;
 }
 
 /* Картинка масштабируется по отношению к родительскому элементу: */
@@ -1330,5 +1331,46 @@ a:hover {
 
     .slider, .next {
         right: none;
+    }
+
+    .forma {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+   .leave_a_request {
+        font-size: 35px;
+        margin: 0 auto;
+   }
+
+    .col-md-3 {
+        --bs-gutter-x: 6rem;
+        max-width: 60%;
+    }
+
+    .map {
+        padding: 50px;
+    }
+
+    .name_map {
+        text-align: center;
+        margin-top: 0px;
+        font-size: 35px;
+        margin-left: 0px;
+    }
+
+    .adres_map {
+        font-size: 15px;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .icon1, .icon2, .icon3 {
+        margin-left: 20px;
+    }
+
+    .a {
+        margin-top: 40px;
+        margin-left: 0px;
     }
 }
