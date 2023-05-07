@@ -144,6 +144,7 @@ header {
     }
 
     .class1, .class2 {
+        object-fit: cover;
         border-radius: 50px;
         margin-top: 50px;  
         margin-left: 130px;
@@ -211,6 +212,8 @@ header {
         font-size: 55px;
         font-family: Segoe script;
         text-align: center;
+        margin-left: 165px;
+        width: 1000px;
     }
 
     /* Слайдер: */
@@ -222,6 +225,7 @@ header {
     margin: auto;
     height: 500px;
     margin-top: 50px;
+    margin-left: 260px;
 }
 
 /* Картинка масштабируется по отношению к родительскому элементу: */
@@ -359,7 +363,7 @@ a:hover {
     height: 40px;
     margin-left: 30px;
 }
-
+/*
     @media (max-width: 1300px){
         header {
             background-image: url("fon.png");
@@ -816,8 +820,7 @@ a:hover {
         .adult, .children, .Individually.and.pairs {
             font-size: 30px;
             color: #ffffff;
-            margin-top: 30px;
-            margin-left: 100px;  
+            margin-top: 30px
         }
     
         .class1, .class2 {
@@ -937,8 +940,7 @@ a:hover {
         .adult, .children, .Individually.and.pairs {
             font-size: 30px;
             color: #ffffff;
-            margin-top: 30px;
-            margin-left: 75px;  
+            margin-top: 30px; 
         }
     
         .class1, .class2 {
@@ -999,7 +1001,6 @@ a:hover {
             font-size: 30px;
             color: #ffffff;
             margin-top: 30px;
-            margin-left: 100px;  
         }
     
         .class1, .class2 {
@@ -1106,14 +1107,12 @@ a:hover {
         font-size: 40px;
         color: #ffffff;
         margin-top: 100px;
-        margin-left: 35px;
     }
 
     .adult, .children, .Individually.and.pairs {
         font-size: 30px;
         color: #ffffff;
         margin-top: 30px;
-        margin-left: 100px;  
     }
 
     .class1, .class2 {
@@ -1173,9 +1172,9 @@ a:hover {
     .slider, .next {
         right: none;
     }
-}
+}*/
 
-@media (max-width: 362px){
+@media (max-width: 500px){
     .nav-link {
         margin-left: 0px;
     }
@@ -1192,7 +1191,8 @@ a:hover {
     .btn {
         font-size: 25px;
         margin-top: 10px;
-        margin-left: 80px;
+        margin-left: 0px;
+
     }
 
     .About_us_photo {
@@ -1218,57 +1218,55 @@ a:hover {
         font-size: 40px;
         color: #ffffff;
         margin-top: 50px;
-        margin-left: 20px;
+        margin-left: 0px;
+        margin: 0 auto;
     }
 
     .adult, .children, .Individually.and.pairs {
         font-size: 30px;
         color: #ffffff;
         margin-top: 30px;
-        margin-left: 90px;  
+        text-align: center;
+        margin-left: 0px;
     }
 
     .class1, .class2 {
         border-radius: 50px;
         margin-top: 30px;  
-        margin-left: 10px;
-        width: 300px;
-        height: 200px;
+        width: 100%;
+        margin: 0 auto;
+        margin-left: 0px;
     }
 
     .name_master_class {
+        margin: 0 auto;
         color: #ffffff;
         font-size: 25px;
         width: 300px;
-        margin-left: 13px;
         margin-top: 20px;
     }
 
     .time_and_price {
-        text-align: center;
+        margin: 0 auto;
         font-size: 18px;
         width: 300px;
-        margin-left: 13px;
         margin-top: 20px;
     }
 
     .description, .description2 {
-        text-align: center;
+        margin: 0 auto;
         font-size: 17px;
         width: 300px;
-        margin-left: 13px;
         margin-top: 10px; 
     }
 
     .children {
+        margin: 0 auto;
         margin-top: 30px;
-        margin-left: 110px;
     }
 
     .Individually.and.pairs {
-        text-align: center;
-        margin-left: 60px;
-        width: 200px;
+        margin: 0 auto;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
@@ -1301,17 +1299,30 @@ a:hover {
         font-size: 30px;
         margin-left: 0px;
         text-align: left;
+        width: 100%;
+        padding-top: 50px;
+        
     }
 
     .item {
-        width: 320px;
-        height: 320px;
+        width: 100%;
+        height: 290px;
         margin-left: 0px;
     }
 
-    .next {
-        left: 280px;
-        width: 0px;
+    .slider {
+        margin-left: 0px;
+        width: 100%; 
+        height: 300px;
+        margin-top: 30px;
+    }
+
+    .slider .item img {
+        height: 250px;
+    }
+
+    .slider .previous, .slider .next {
+        top: 40%;
     }
 
     .slider, .next {
