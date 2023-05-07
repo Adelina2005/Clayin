@@ -1174,7 +1174,7 @@ a:hover {
     }
 }*/
 
-@media (max-width: 500px){
+@media (max-width: 400px){
     .nav-link {
         margin-left: 0px;
     }
@@ -1191,7 +1191,7 @@ a:hover {
     .btn {
         font-size: 25px;
         margin-top: 10px;
-        margin-left: 0px;
+        margin-left: 105px;
 
     }
 
@@ -1199,6 +1199,7 @@ a:hover {
         margin-top: 70px;
         width: 300px;
         height: 300px;
+        object-fit: cover;
     }
 
     .about_us {
@@ -1217,9 +1218,10 @@ a:hover {
     .master_class {
         font-size: 40px;
         color: #ffffff;
-        margin-top: 50px;
+        margin-top: 0px;
         margin-left: 0px;
-        margin: 0 auto;
+        text-align: center;
+        padding-top: 50px;
     }
 
     .adult, .children, .Individually.and.pairs {
@@ -1228,11 +1230,11 @@ a:hover {
         margin-top: 30px;
         text-align: center;
         margin-left: 0px;
+        padding-bottom: 20px;
     }
 
     .class1, .class2 {
-        border-radius: 50px;
-        margin-top: 30px;  
+        border-radius: 50px; 
         width: 100%;
         margin: 0 auto;
         margin-left: 0px;
@@ -1258,6 +1260,7 @@ a:hover {
         font-size: 17px;
         width: 300px;
         margin-top: 10px; 
+        padding-bottom: 50px;
     }
 
     .children {
@@ -1278,14 +1281,14 @@ a:hover {
         width: 300px;
         height: 300px;
         margin-left: 0px;
-        margin-top: -770px;
+        margin-top: -780px;
         margin-bottom: 50px;
     }
 
     .about_us1 {
         font-size: 35px;
         margin-left: 0px;
-        margin-top: 370px;
+        margin-top: 330px;
     }
 
     .info_about_us2 {
