@@ -1,5 +1,3 @@
-@import url(fonts/gentium.eot);
-
 *{
     padding: 0;
     margin: 0;
@@ -212,12 +210,18 @@ header {
         padding-top: 100px;
         color: #ffffff;
         font-size: 55px;
-        font-family: "Segoe script", Gentium;
-        font-family: Gentium;
+        font-family: "Segoe script";
         text-align: center;
         margin-left: 165px;
         width: 1000px;
+        font-synthesis: none
     }
+
+@font-face {
+    font-family: Gentium;  
+    src: url(fonts/gentium.eot);   
+}
+
 
     /* Слайдер: */
 .slider{
