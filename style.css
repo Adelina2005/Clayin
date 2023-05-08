@@ -210,11 +210,10 @@ header {
         padding-top: 100px;
         color: #ffffff;
         font-size: 55px;
-        font-family: "Segoe script";
+        font-family: 'Lobster', cursive;
         text-align: center;
         margin-left: 165px;
         width: 1000px;
-        font-synthesis: none;
     }
 
     /* Слайдер: */
