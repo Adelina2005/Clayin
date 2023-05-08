@@ -109,10 +109,10 @@ header {
 
    .about_us, .about_us1 {
     color: #ffffff;
-    font-size: 45px;
+    font-size: 50px;
     margin-top: 160px;
     margin-left: 40px;
-    font-family: Segoe script;
+    font-family: 'Marck Script', cursive;
     }
 
    .info_about_us, .info_about_us2 { 
@@ -209,8 +209,8 @@ header {
     .products_of_our_guests {
         padding-top: 100px;
         color: #ffffff;
-        font-size: 55px;
-        font-family: 'Lobster', cursive;
+        font-size: 70px;
+        font-family: 'Marck Script', cursive;
         text-align: center;
         margin-left: 165px;
         width: 1000px;
@@ -293,7 +293,7 @@ header {
     color: #ffffff;
     text-align: center;
     font-size: 60px;
-    font-family: Segoe script;
+    font-family: 'Marck Script', cursive;
 }
 
 .col-md-3 {
