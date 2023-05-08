@@ -210,8 +210,7 @@ header {
         padding-top: 100px;
         color: #ffffff;
         font-size: 55px;
-        font-family: "Segoe script";
-        font-family: -apple-system-headline;
+        font-family: "Segoe script", -apple-system, BlinkMacSystemFont, sans-serif;
         text-align: center;
         margin-left: 165px;
         width: 1000px;
