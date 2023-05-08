@@ -214,14 +214,8 @@ header {
         text-align: center;
         margin-left: 165px;
         width: 1000px;
-        font-synthesis: none
+        font-synthesis: none;
     }
-
-@font-face {
-    font-family: Gentium;  
-    src: url(fonts/gentium.eot);   
-}
-
 
     /* Слайдер: */
 .slider{
