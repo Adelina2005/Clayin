@@ -210,11 +210,17 @@ header {
         padding-top: 100px;
         color: #ffffff;
         font-size: 55px;
-        font-family: "Segoe script", -apple-system, BlinkMacSystemFont, sans-serif;
+        font-family: "Segoe script", Gentium;
         text-align: center;
         margin-left: 165px;
         width: 1000px;
     }
+
+@font-face {
+    font-family: Gentium;  
+    src: url(fonts/gentium.eot);   
+}
+
 
     /* Слайдер: */
 .slider{
