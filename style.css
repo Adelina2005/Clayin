@@ -948,12 +948,14 @@ a:hover {
         margin-top: 0px;
         font-size: 35px;
         margin-left: 0px;
+        margin-right: 0px;
     }
 
     .adres_map {
         font-size: 15px;
         text-align: center;
         margin-left: 0px;
+        margin-right: 0px;
     }
 
     .icon1, .icon2, .icon3 {
