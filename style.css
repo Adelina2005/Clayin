@@ -86,10 +86,12 @@ header {
    .btn{
     color: #ffffff;
     font-size: 40px;
-    margin-left: 604px;
+    margin-left: 0px;
     font-family: 'Courier New', Courier, monospace;
     margin-top: 20px;
     border: solid 2px;
+    display: block;
+    margin: 0 auto;
    }
   
    .btn:hover {
@@ -141,6 +143,7 @@ header {
         margin-top: 40px;
         margin-left: 610px; 
         margin-bottom: 0px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     .class1, .class2 {
@@ -364,824 +367,209 @@ a:hover {
     height: 40px;
     margin-left: 30px;
 }
-/*
-    @media (max-width: 1300px){
-        header {
-            background-image: url("fon.png");
-            height: 100vh;
-            background-size: cover;
-            background-position: center;
-            width: 100%;
-            background-color: rgba(181, 171, 161, 0.5);
-            background-blend-mode: multiply;
-           }
-           
-           .navbar.navbar-expand-lg.bg-body-tertiary {
-               --bs-bg-opacity: none;
-           }
-           
-           .navbar-brand {
-               color: white;
-               font-size: 25px;
-           }
-           
-           .navbar-brand:hover{
-               color: rgb(255, 241, 224);
-           }
-           
-           .nav-link {
-               color: white;
-               font-size: 18px;
-               margin-left: 40px;
-           }
-           
-           .nav-link:hover {
-               color: rgb(255, 241, 224);
-           }
-           
-           .heading{
-            text-align: center;
-            position: static; 
-            color: #ffffff;
-            font-size: 60px;
-            font-family: 'Courier New', Courier, monospace;
-            margin-top: 100px;
-           }
-        
-           .btn.a {
-            color: #ffffff;
-            font-size: 30px;
-            margin-left: 385px;
-            font-family: 'Courier New', Courier, monospace;
-            margin-top: 330px;
-            border: solid 2px;
-            width: 300px;
-           }
-           
-           .btn:hover {
-            background-color: rgb(207, 207, 203);
-           }
-        
-           .modal-dialog {
-            max-width: 600px;
-            --bs-modal-header-padding: 2rem 1rem;
-            --bs-modal-footer-gap: 1rem;
-           }
-        
-           .modal-content {
-            background-color: rgb(207, 207, 203);
-           }
-        
-           .modal-header {
-            border-bottom: none;
-           }
-        
-           .modal-title.fs-5 {
-            color: #645e5e;
-            margin: 0px;
-            font-size: 3rem!important;
-            padding-right: 450px;
-           }
-        
-           .modal-body {
-            font-size: 25px;
-            padding: 30px;
-           }
-        
-           .btn.btn-b {
-            font-size: 20px;
-            background-color: #fe8a8a;
-           }
-        
-           .btn.btn-c {
-            font-size: 20px;
-            background-color: #82e87c;
-           }
-        
-           .btn.btn-b:hover {
-            background-color: #fe8a8a;
-           }
-        
-           .btn.btn-c:hover {
-            background-color: #82e87c;
-           }
-        
-           .about {
-            background-color: rgb(206, 180, 149);
-           }
-           
-           .carousel-inner {
-            margin-top: 200px;
-            border-radius: 200px;
-            width: 350px;
-            height: 350px;
-            }
-        
-           .about_us {
-            color: #ffffff;
-            font-size: 45px;
-            margin-top: 130px;
-            margin-left: 80px;
-            }
-        
-           p { 
-            color: #ffffff;
-            font-size: 32px;
-            margin-top: 20px;
-            margin-left: 80px;
-            }
-    }
 
-    @media (max-width: 1024px){
-        .nav-link {
-            margin-left: 0px;
-        }
-    
-        h1{
-            font-size: 50px;
-            margin-left: 190px;
-            margin-top: 120px;
-            width: 500px;
-            text-align: center;
-        }
-    
-       .btn.a {
-        font-size: 30px;
-        margin-top: 310px;
-        margin-left: 340px;
-        width: 200px;
-       }
-    
-       .modal-dialog {
-        --bs-modal-header-padding: 1rem 1rem;
-        --bs-modal-footer-gap: 1rem;
-       }
-    
-       .modal-title.fs-5 {
-        font-size: 2rem!important;
-        padding-right: 40px;
-        padding-top: 10px;
-       }
-    
-       .modal-body {
-        font-size: 20px;
-        padding: 20px;
-       }
-    
-       .btn.btn-b {
-        font-size: 15px;
-       }
-    
-       .btn.btn-c {
-        font-size: 15px;
-       }
-    
-        .carousel-inner {
-            margin-top: 100px;
-            width: 250px;
-            height: 250px;
-        }
-    
-        .about_us {
-            font-size: 35px;
-            margin-left: 50px;
-            margin-top: 90px;
-        }
-        
-        p { 
-            font-size: 23px;
-            margin-top: 10px;
-            margin-left: 50px; 
-            margin-bottom: 200px;
-        }
-    }
-
-    @media (max-width: 850px){
-        .nav-link {
-            margin-left: 0px;
-        }
-    
-        h1{
-            font-size: 50px;
-            margin-left: 130px;
-            margin-top: 120px;
-            width: 500px;
-            text-align: center;
-        }
-    
-       .btn.a {
-        font-size: 30px;
-        margin-top: 310px;
-        margin-left: 275px;
-        width: 200px;
-       }
-    
-       .modal-dialog {
-        --bs-modal-header-padding: 1rem 1rem;
-        --bs-modal-footer-gap: 1rem;
-       }
-    
-       .modal-title.fs-5 {
-        font-size: 2rem!important;
-        padding-right: 40px;
-        padding-top: 10px;
-       }
-    
-       .modal-body {
-        font-size: 20px;
-        padding: 20px;
-       }
-    
-       .btn.btn-b {
-        font-size: 15px;
-       }
-    
-       .btn.btn-c {
-        font-size: 15px;
-       }
-    
-        .carousel-inner {
-            margin-top: 130px;
-            width: 250px;
-            height: 250px;
-        }
-    
-        .about_us {
-            font-size: 35px;
-            margin-left: 50px;
-            margin-top: 90px;
-        }
-        
-        p { 
-            font-size: 23px;
-            margin-top: 10px;
-            margin-left: 50px; 
-            margin-bottom: 200px;
-        }
-    }
-
-
-    @media (max-width: 768px){
-        .nav-link {
-            margin-left: 0px;
-        }
-    
-        h1{
-            font-size: 50px;
-            margin-left: 80px;
-            margin-top: 120px;
-            width: 500px;
-            text-align:left;
-        }
-    
-       .btn.a {
-        font-size: 30px;
-        margin-top: 310px;
-        margin-left: 80px;
-        width: 200px;
-       }
-    
-       .modal-dialog {
-        --bs-modal-header-padding: 1rem 1rem;
-        --bs-modal-footer-gap: 1rem;
-       }
-    
-       .modal-title.fs-5 {
-        font-size: 2rem!important;
-        padding-right: 40px;
-        padding-top: 10px;
-       }
-    
-       .modal-body {
-        font-size: 20px;
-        padding: 20px;
-       }
-    
-       .btn.btn-b {
-        font-size: 15px;
-       }
-    
-       .btn.btn-c {
-        font-size: 15px;
-       }
-    
-        .carousel-inner {
-            margin-top: 110px;
-            width: 250px;
-            height: 250px;
-        }
-    
-        .about_us {
-            font-size: 35px;
-            margin-left: 20px;
-            margin-top: 90px;
-        }
-        
-        p { 
-            font-size: 23px;
-            margin-top: 20px;
-            margin-left: 20px; 
-        }
-    }
-
-
-    @media (max-width: 650px){
-        .nav-link {
-            margin-left: 0px;
-        }
-    
-        h1{
-            font-size: 45px;
-            margin-left: 70px;
-            margin-top: 120px;
-            width: 500px;
-            text-align:left;
-        }
-    
-       .btn.a {
-        font-size: 30px;
-        margin-top: 300px;
-        margin-left: 70px;
-        width: 200px;
-       }
-    
-       .modal-dialog {
-        --bs-modal-header-padding: 1rem 1rem;
-        --bs-modal-footer-gap: 1rem;
-       }
-    
-       .modal-title.fs-5 {
-        font-size: 2rem!important;
-        padding-right: 40px;
-        padding-top: 10px;
-       }
-    
-       .modal-body {
-        font-size: 20px;
-        padding: 20px;
-       }
-    
-       .btn.btn-b {
-        font-size: 15px;
-       }
-    
-       .btn.btn-c {
-        font-size: 15px;
-       }
-    
-        .carousel-inner {
-            margin-top: 50px;
-            width: 250px;
-            height: 250px;
-        }
-    
-        .about_us {
-            font-size: 35px;
-            margin-left: 20px;
-            margin-top: 20px;
-        }
-        
-        p { 
-            font-size: 22px;
-            margin-top: 10px;
-            margin-left: 20px;  
-        }
-    }
-
-    @media (max-width: 576px){
-        .nav-link {
-            margin-left: 0px;
-        }
-    
-        h1{
-            font-size: 40px;
-            margin-left: 50px;
-            margin-top: 120px;
-            width: 340px;
-            text-align:left;
-        }
-    
-       .btn.a {
-        font-size: 25px;
-        margin-top: 270px;
-        margin-left: 50px;
-        width: 170px;
-       }
-    
-       .modal-dialog {
-        --bs-modal-header-padding: 1rem 1rem;
-        --bs-modal-footer-gap: 1rem;
-       }
-    
-       .modal-title.fs-5 {
-        font-size: 2rem!important;
-        padding-right: 40px;
-        padding-top: 10px;
-       }
-    
-       .modal-body {
-        font-size: 20px;
-        padding: 20px;
-       }
-    
-       .btn.btn-b {
-        font-size: 15px;
-       }
-    
-       .btn.btn-c {
-        font-size: 15px;
-       }
-    
-        .carousel-inner {
-            margin-top: 50px;
-            width: 250px;
-            height: 250px;
-        }
-    
-        .about_us {
-            font-size: 35px;
-            margin-left: 20px;
-            margin-top: 20px;
-        }
-        
-        p { 
-            font-size: 22px;
-            margin-top: 10px;
-            margin-left: 20px; 
-            margin-bottom: 0px; 
-        }
-
-        .master_class {
-            font-size: 40px;
-            color: #ffffff;
-            margin-top: 100px;
-            margin-left: 35px;
-        }
-    
-        .adult, .children, .Individually.and.pairs {
-            font-size: 30px;
-            color: #ffffff;
-            margin-top: 30px
-        }
-    
-        .class1, .class2 {
-            border-radius: 50px;
-            margin-top: 30px;  
-            margin-left: 0px;
-            width: 350px;
-            height: 250px;
-        }
-    
-        .aw {
-            font-size: 25px;
-            width: 350px;
-            margin-left: 0px;
-            margin-top: 20px;
-        }
-    
-        .as {
-            text-align: center;
-            font-size: 20px;
-            width: 350px;
-            margin-left: 0px;
-            margin-top: 20px;
-        }
-    
-        .w {
-            text-align: center;
-            font-size: 19px;
-            width: 350px;
-            margin-left: 0px;
-            margin-top: 10px; 
-        }
-    
-        .children {
-            margin-top: 30px;
-            margin-left: 115px;
-        }
-    
-        .Individually.and.pairs {
-            text-align: center;
-            margin-left: 42px;
-            width: 200px;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        }
-    }
-
-    @media (max-width: 400px){
-        .nav-link {
-            margin-left: 0px;
-        }
-    
-        h1{
-            font-size: 35px;
-            margin-left: 50px;
-            margin-top: 120px;
-            width: 300px;
-            text-align: center;
-        }
-    
-       .btn.a {
-        margin-left: 100px;
-        font-size: 25px;
-        margin-top: 270px;
-        width: 180px;
-       }
-    
-       .modal-dialog {
-        --bs-modal-header-padding: 2rem 1rem;
-        --bs-modal-footer-gap: 1rem;
-       }
-    
-       .modal-title.fs-5 {
-        text-align: center;
-        font-size: 2rem!important;
-        padding-top: 10px;
-       }
-    
-       .modal-body {
-        font-size: 20px;
-        padding: 20px;
-       }
-    
-       .btn.btn-b {
-        font-size: 15px;
-       }
-    
-       .btn.btn-c {
-        font-size: 15px;
-       }
-    
-        .carousel-inner {
-            margin-top: 50px;
-            width: 300px;
-            height: 300px;
-        }
-    
-        .about_us {
-            font-size: 35px;
-            margin-left: 20px;
-            margin-top: 20px;
-        }
-        
-        p { 
-            font-size: 20px;
-            margin-top: 10px;
-            margin-left: 20px;  
-            margin-bottom: 0px;
-        }
-
-        .master_class {
-            font-size: 40px;
-            color: #ffffff;
-            margin-top: 100px;
-            margin-left: 10px;
-        }
-    
-        .adult, .children, .Individually.and.pairs {
-            font-size: 30px;
-            color: #ffffff;
-            margin-top: 30px; 
-        }
-    
-        .class1, .class2 {
-            border-radius: 50px;
-            margin-top: 30px;  
-            margin-left: 0px;
-            width: 300px;
-            height: 200px;
-        }
-    
-        .aw {
-            color: #ffffff;
-            text-align: center;
-            font-size: 23px;
-            width: 300px;
-            margin-left: 0px;
-            margin-top: 20px;
-        }
-    
-        .as {
-            text-align: center;
-            font-size: 18px;
-            width: 300px;
-            margin-left: 0px;
-            margin-top: 20px;
-            margin-bottom: 0px;
-        }
-    
-        .w {
-            text-align: center;
-            font-size: 17px;
-            width: 300px;
-            margin-left: 0px;
-            margin-top: 10px; 
-            margin-bottom: 0px;
-        }
-    
-        .children {
-            margin-top: 30px;
-            margin-left: 97px;
-        }
-    
-        .Individually.and.pairs {
-            text-align: center;
-            margin-left: 42px;
-            width: 200px;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        }
-
-        .master_class {
-            font-size: 40px;
-            color: #ffffff;
-            margin-top: 100px;
-            margin-left: 35px;
-        }
-    
-        .adult, .children, .Individually.and.pairs {
-            font-size: 30px;
-            color: #ffffff;
-            margin-top: 30px;
-        }
-    
-        .class1, .class2 {
-            border-radius: 50px;
-            margin-top: 30px;  
-            margin-left: 0px;
-            width: 350px;
-            height: 250px;
-        }
-    
-        .aw {
-            font-size: 25px;
-            width: 350px;
-            margin-left: 0px;
-            margin-top: 20px;
-        }
-    
-        .as {
-            text-align: center;
-            font-size: 20px;
-            width: 350px;
-            margin-left: 0px;
-            margin-top: 20px;
-        }
-    
-        .w {
-            text-align: center;
-            font-size: 19px;
-            width: 350px;
-            margin-left: 0px;
-            margin-top: 10px; 
-        }
-    
-        .children {
-            margin-top: 30px;
-            margin-left: 115px;
-        }
-    
-        .Individually.and.pairs {
-            text-align: center;
-            margin-left: 42px;
-            width: 200px;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        }
-
-        
-    .item {
-        width: 320px;
-        height: 320px;
-        margin-left: 0px;
-    }
-
-    .next {
-        left: 280px;
-        width: 0px;
-    }
-
-    .slider, .next {
-        right: 0px;
-        width: fit-content;
-    }
-    }
-
-@media (max-width: 375px){
-    .nav-link {
-        margin-left: 0px;
-    }
-
-    h1{
-        font-size: 35px;
-        margin-left: 13px;
+@media (max-width: 1025px) {
+    .heading1, .heading2, .heading3{
+        font-size: 70px;
         margin-top: 100px;
-        width: 300px;
-        text-align: center;
     }
 
-   .btn.a {
-        font-size: 25px;
-        margin-top: 240px;
-        width: 180px;
-        margin-left: 30px;
-   }
+    .heading2, .heading3{
+        margin-top: 0px;
+    }
 
+    
     .About_us_photo {
-        margin-top: 50px;
+        margin-top: 120px;
+        object-fit: cover;
         width: 300px;
         height: 300px;
     }
 
     .about_us {
-        font-size: 35px;
-        margin-left: 20px;
-        margin-top: 20px;
+        font-size: 45px;
+        margin-left: 10px;
+        margin-top: 50px;
     }
     
-    p { 
-        font-size: 20px;
+    .info_about_us { 
+        font-size: 30px;
         margin-top: 10px;
-        margin-left: 20px;  
-        margin-bottom: 0px;
+        margin-left: 10px;  
+        margin-bottom: 50px;
     }
 
     .master_class {
-        font-size: 40px;
-        color: #ffffff;
-        margin-top: 100px;
+        font-size: 45px;
+        margin-top: 30px;
+        margin-left: 0px;
+        text-align: center;
+        padding-top: 50px;
     }
 
     .adult, .children, .Individually.and.pairs {
-        font-size: 30px;
-        color: #ffffff;
+        font-size: 40px;
         margin-top: 30px;
+        text-align: center;
+        margin-left: 0px;
+        padding-bottom: 40px;
     }
 
     .class1, .class2 {
-        border-radius: 50px;
-        margin-top: 30px;  
+        border-radius: 50px; 
+        width: 100%;
+        margin: 0 auto;
         margin-left: 0px;
-        width: 350px;
-        height: 250px;
+        height:350px;
     }
 
-    .aw {
-        font-size: 25px;
-        width: 350px;
-        margin-left: 0px;
+    .name_master_class {
+        margin: 0 auto;
+        color: #ffffff;
+        font-size: 30px;
+        width: 400px;
         margin-top: 20px;
     }
 
-    .as {
-        text-align: center;
+    .time_and_price {
+        margin: 0 auto;
+        font-size: 22px;
+        width: 300px;
+        margin-top: 20px;
+    }
+
+    .description, .description2 {
+        margin: 0 auto;
         font-size: 20px;
-        width: 350px;
-        margin-left: 0px;
-        margin-top: 20px;
-    }
-
-    .w {
-        text-align: center;
-        font-size: 19px;
-        width: 350px;
-        margin-left: 0px;
+        width: 400px;
         margin-top: 10px; 
+        padding-bottom: 50px;
     }
 
     .children {
+        margin: 0 auto;
         margin-top: 30px;
-        margin-left: 115px;
     }
 
     .Individually.and.pairs {
-        text-align: center;
-        margin-left: 42px;
-        width: 200px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin: 0 auto;
+        margin-top: 30px;
     }
 
-    .item {
-        width: 320px;
-        height: 320px;
+    .description2 {
+        margin-bottom: 50px;
+    }
+
+    .present {
+        margin-top: 60px;
+        object-fit: cover;
+        width: 350px;
+        height: 350px;
         margin-left: 0px;
     }
 
-    .next {
-        left: 280px;
-        width: 0px;
+    .about_us1 {
+        font-size: 40px;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
+    .info_about_us2 {
+        font-size: 25px;
+        margin-top: 10px;
+        margin-left: 10px;  
+        margin-bottom: 50px;
+    }
+
+    .products_of_our_guests {
+        font-size: 50px;
+        margin-left: 50px;
+        padding-top: 50px;  
+        width: 900px;
+    }
+
+    .item {
+        width: 100%;
+        height: 600px;
+        margin-left: 0px;
+    }
+
+    .slider {
+        width: 100%; 
+        height: 300px;
+        margin-top: 30px;
+        margin-bottom: 120px;
+        margin-left: 225px;
+    }
+
+    .slider .item img {
+        height: 350px;
+    }
+
+    .slider .previous, .slider .next {
+        top: 50%;
     }
 
     .slider, .next {
         right: none;
     }
-}*/
 
-@media (max-width: 376px){
+    .forma {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+   .leave_a_request {
+        font-size: 50px;
+        margin: 0 auto;
+   }
+
+    .col-md-3 {
+        --bs-gutter-x: 18rem;
+        max-width: 80%;
+        width: 40%;
+    }
+
+    .map {
+        padding: 50px;
+    }
+
+    .name_map {
+        text-align: center;
+        margin-top: 120px;
+        font-size: 40px;
+        margin-left: 0px;
+        margin-right: 50px;
+    }
+
+    .adres_map {
+        font-size: 20px;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 40px;
+    }
+
+    .icon1, .icon2, .icon3 {
+        margin-left: 55px;
+    }
+
+    .a {
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+}  
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 426px){
     .nav-link {
         margin-left: 0px;
     }
 
     .heading1, .heading2, .heading3{
-        font-size: 35px;
+        font-size: 40px;
         margin-top: 100px;
     }
 
@@ -1193,7 +581,6 @@ a:hover {
         font-size: 25px;
         margin-top: 10px;
         margin-left: 101px;
-
     }
 
     .About_us_photo {
@@ -1239,6 +626,7 @@ a:hover {
         width: 100%;
         margin: 0 auto;
         margin-left: 0px;
+        height: 230px;
     }
 
     .name_master_class {
@@ -1375,11 +763,210 @@ a:hover {
     }
 }
 
-@media (max-width: 361px){
-    .btn {
-         margin-left: 95px;
+
+@media (max-width: 376px){
+    .nav-link {
+        margin-left: 0px;
     }
 
+    .heading1, .heading2, .heading3{
+        font-size: 35px;
+        margin-top: 100px;
+    }
+
+    .heading2, .heading3{
+        margin-top: 0px;
+    }
+
+    .btn {
+        font-size: 25px;
+        margin-top: 10px;
+        margin-left: 0px;
+        display: block;
+        margin: 0 auto;
+
+    }
+
+    .About_us_photo {
+        margin-top: 70px;
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .about_us {
+        font-size: 35px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    
+    .info_about_us { 
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 0px;  
+        margin-bottom: 50px;
+    }
+
+    .master_class {
+        font-size: 40px;
+        color: #ffffff;
+        margin-top: 0px;
+        margin-left: 0px;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .adult, .children, .Individually.and.pairs {
+        font-size: 30px;
+        color: #ffffff;
+        margin-top: 30px;
+        text-align: center;
+        margin-left: 0px;
+        padding-bottom: 20px;
+    }
+
+    .class1, .class2 {
+        border-radius: 50px; 
+        width: 100%;
+        margin: 0 auto;
+        margin-left: 0px;
+        height: 230px;
+    }
+
+    .name_master_class {
+        margin: 0 auto;
+        color: #ffffff;
+        font-size: 25px;
+        width: 300px;
+        margin-top: 20px;
+    }
+
+    .time_and_price {
+        margin: 0 auto;
+        font-size: 18px;
+        width: 300px;
+        margin-top: 20px;
+    }
+
+    .description, .description2 {
+        margin: 0 auto;
+        font-size: 17px;
+        width: 300px;
+        margin-top: 10px; 
+        padding-bottom: 50px;
+    }
+
+    .children {
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .Individually.and.pairs {
+        margin: 0 auto;
+    }
+
+    .description2 {
+        margin-bottom: 50px;
+    }
+
+    .present {
+        width: 300px;
+        height: 300px;
+        margin-left: 0px;
+        margin-top: -780px;
+        margin-bottom: 50px;
+    }
+
+    .about_us1 {
+        font-size: 35px;
+        margin-left: 0px;
+        margin-top: 330px;
+    }
+
+    .info_about_us2 {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 0px;  
+        margin-bottom: 50px;
+    }
+
+    .products_of_our_guests {
+        font-size: 30px;
+        margin-left: 0px;
+        text-align: left;
+        width: 103%;
+        padding-top: 50px;  
+    }
+
+    .item {
+        width: 100%;
+        height: 290px;
+        margin-left: 0px;
+    }
+
+    .slider {
+        margin-left: 0px;
+        width: 100%; 
+        height: 300px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    .slider .item img {
+        height: 250px;
+    }
+
+    .slider .previous, .slider .next {
+        top: 40%;
+    }
+
+    .slider, .next {
+        right: none;
+    }
+
+    .forma {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+   .leave_a_request {
+        font-size: 35px;
+        margin: 0 auto;
+   }
+
+    .col-md-3 {
+        --bs-gutter-x: 6rem;
+        max-width: 60%;
+    }
+
+    .map {
+        padding: 50px;
+    }
+
+    .name_map {
+        text-align: center;
+        margin-top: 0px;
+        font-size: 35px;
+        margin-left: 0px;
+    }
+
+    .adres_map {
+        font-size: 15px;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .icon1, .icon2, .icon3 {
+        margin-left: 30px;
+    }
+
+    .a {
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 361px){
     .col-md-3 {
         --bs-gutter-x: 5rem;
         max-width: 60%;
@@ -1391,10 +978,6 @@ a:hover {
  }
 
 @media (max-width: 351px){
-    .btn {
-         margin-left: 90px;
-    }
-
     .col-md-3 {
         --bs-gutter-x: 5rem;
         max-width: 60%;
@@ -1406,10 +989,6 @@ a:hover {
  }
 
 @media (max-width: 341px){
-    .btn {
-         margin-left: 85px;
-    }
-
     .col-md-3 {
         --bs-gutter-x: 4rem;
         max-width: 60%;
@@ -1421,20 +1000,12 @@ a:hover {
  }
 
 @media (max-width: 331px){
-    .btn {
-         margin-left: 80px;
-    }
-
     .icon1, .icon2, .icon3 {
         margin-left: 17px;
     }
  }
 
 @media (max-width: 321px){
-   .btn {
-        margin-left: 75px;
-   }
-
    .col-md-3 {
     --bs-gutter-x: 3rem;
     max-width: 60%;
